@@ -1,0 +1,31 @@
+.video iframe{
+    border: 3px red solid;
+    width: 35em;
+    height: 20em;
+}
+a{
+    border: 3px solid violet;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.play_video{
+    border: 3px solid pink;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    position:relative;
+    bottom: 18em;
+    left: 14em ;
+    box-sizing: border-box;
+
+}
+img, section{
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}

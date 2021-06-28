@@ -1,0 +1,254 @@
+/*******************
+ Box Sizing
+ *******************/
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 3px black solid;
+    
+}
+
+
+/***********************************
+ * Global styling and typography
+ ***********************************/
+html {
+    font-size: 62.5%;
+}
+/* make image always block or inline-block */
+/* this is included in reset.css -> no need here */
+img {
+    display: block;
+    max-width: 100%; 
+    margin: 0 0 2.5em;
+    object-fit: cover;
+  /* not more than the original width */
+}
+
+
+h1,
+h2 {
+    font-family: 'Montserrat', helvetica, sans-serif;
+    color: var(--a-color);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.7em 0; /* normalize defines margin on h1 */
+}
+
+h2 {
+    font-size: 3.2rem;
+    margin: 0 0 0.7em;
+}
+
+main {
+    /* width: 95%;
+    max-width: 800px;  */
+    /* for large screens */
+    /* width: min(800px, 95%); */
+    padding: 2em;
+    /* margin: 0 auto 3rem; */
+    
+}
+.main_container{
+  border: 3px solid red;
+    width: 95%;
+    max-width: 800px; 
+    float: right;
+}
+
+
+
+a {
+    font-weight: bold;
+    transition: 0.3s; 
+    text-decoration: none;
+    /* mini animation when feature value changes */
+}
+
+
+/* don't forget focus */
+a:focus {
+    
+    outline-offset: 3px;
+}
+
+
+:root {
+  font-size: 62.5%;
+}
+
+/*******************
+ Core body defaults
+ @see https://hankchizljaw.com/wrote/a-modern-css-reset/
+ *******************/
+body {
+  
+    font-size: 2rem;
+    font-family: arial, helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 2em;
+  word-spacing: 0.2em;
+  letter-spacing: 0.1em;
+
+}
+
+/****************************
+Generic Margins and Paddings
+ ****************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+figcaption,
+hr,
+dl,
+dd {
+  margin: 0;
+  padding: 0.1em 3%;
+}
+
+/*******************
+ Lists
+ *******************/
+ul {
+  list-style: none;
+}
+
+/*******************
+ Forms and buttons
+ *******************/
+input,
+textarea,
+select,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* I usually expand input and textarea to full-width */
+input[type='text'],
+textarea {
+  width: 100%;
+}
+
+/* More friendly border */
+input,
+textarea,
+button {
+  border: 1px solid gray;
+}
+
+/* Some defaults for one-liner buttons */
+button {
+  padding: 0.75em 1em;
+  line-height: inherit;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+button * {
+  pointer-events: none;
+}
+
+/***********************************
+Easy responsive for media elements
+ ***********************************/
+img,
+svg,
+iframe,
+video,
+object,
+embed {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*******************
+Useful table styles
+ *******************/
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/*******************
+The hidden attribute
+ *******************/
+[hidden] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/*******************
+Noscript
+ *******************/
+noscript {
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/*******************
+Tabindex
+ *******************/
+[tabindex='-1'] {
+  outline: none !important;
+}
+
+/*******************
+ Remove animations and transitions
+ @see https://hankchizljaw.com/wrote/a-modern-css-reset/
+ *******************/
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*******************
+ * Screen-ready only class to hide content visually
+ * Solution by Joe Watkins.
+ * @see https://zellwk.com/blog/hide-content-accessibly/
+ *******************/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
