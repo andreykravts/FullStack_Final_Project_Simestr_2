@@ -16,7 +16,7 @@
 
 
 
-.img_tl{
+/* .img_tl{
     box-sizing: border-box;
 
     margin: 0;
@@ -27,7 +27,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .nav{
     
@@ -54,10 +54,10 @@
 }
 
 .main_container{
+    
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
     margin: 0;
-    float: right;
     width: 95%;
     max-width: 700px; 
     border: 3px solid red;
@@ -76,10 +76,13 @@
 
 
 .aside-container{
+
+    margin: 0;
     border: 3px solid green;
     box-sizing: border-box;
-    display: block;
-    float: left;
+    display: inline-block;
+    width: 10em;
+    height: 6em;
     
 }
 
