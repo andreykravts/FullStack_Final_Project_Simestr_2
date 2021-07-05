@@ -1,30 +1,3 @@
-/***********************************
- * Notes:
- * - use normalize, google fonts, pictures from free site
- * - start from main parts and go inside them: header, main, figure ...
- * - look down and make margin-bottom and not top (because of collapsing)
- * - give padding to main
- * - use rem for font-size, use rem/em for margin and padding
- * - choose image according to required aspect ratio
- * - use object-fit to fit if width and height are specified for image
- * - give focus to link (as hover) for disabled user
- * - write comments in CSS and HTML code
- *
- * Where to use img and where background image:
- *
- * When to use <img >:
- * - When your image need to be indexed by search engine
- * - If the image is part of the content such as a logo or diagram or person 
- * - If your image is not too small ( not iconic images ).
- * - Images where you can add alt and title attribute.
- * - Images from a webpage which you want to print using print media css
- *
- * - When to use CSS background-image:
- * - No relation with content.
- * - Small images like icons
- * - Repeating Images ( In blog author icon , date icon will be repeated for each article etc.,).
- * - Use background image to improve page load (sprites may be used)
- ***********************************/
 
 /***********************************
  * Global styling and typography

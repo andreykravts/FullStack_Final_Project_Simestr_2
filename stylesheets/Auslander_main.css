@@ -1,60 +1,14 @@
 
-
-
-.footer-container{
-    background-image: url(/images/big-Background\ photo.jpg);
-    box-sizing: border-box;
-    display: block;
-    margin: 0;
-    padding: 19em 10em;
-    background-position: center;
-    background-size:contain;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-
-
-
-
-/* .img_tl{
-    box-sizing: border-box;
-
-    margin: 0;
-    padding: 10em 10%;
-    
-
-    background-image: url(/images/till_auslander.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
-.nav{
-    
-    box-sizing: border-box;
-    display: inline-block;
-    left: 2em;
-    top: 5.5em;
-
-    background-color: rgba(0, 0, 0, 0.24);
-}
-
 .special_main{
     box-sizing: border-box;
     display: inline-block;
-}
-.sec_center{
-    float: center;
-}
-.sec_right{
-    float: right;
-}
-.sec_left{
-    float: left;
+
 }
 
+
 .main_container{
-    
+    position: relative;
+    left: 10em;
     box-sizing: border-box;
     display: inline-block;
     margin: 0;
@@ -63,6 +17,7 @@
     border: 3px solid red;
 
     background-color: rgba(0, 0, 0, 0.24);
+    
 }
 
 .vid{
@@ -76,14 +31,14 @@
 
 
 .aside-container{
-
+    position: relative;
+    left: 10em;
     margin: 0;
     border: 3px solid green;
     box-sizing: border-box;
     display: inline-block;
-    width: 10em;
-    height: 6em;
     
+
 }
 
 .aside_container1,.aside_container2,.aside_container3,.aside_container4,.aside_container5{
@@ -109,3 +64,47 @@
 .aside_container5{
     background-image: url(/images/hunt.jpg);
 }
+.btn{
+    background-image: url(/icons/android-chrome-youtube192x192.png);
+    padding: 5em;
+    position: relative;
+    left: 15rem;
+}
+
+
+.play_video{
+    background-image: url(/images/Auslander.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border: 3px solid pink;
+    padding: 5em;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    
+    
+}
+
+            /* <a class="play_video" href="https://www.youtube.com/watch?v=pat2c33sbog" alt="PLAY THE VIDEO">
+            <div class="btn"></div>
+            </a> */
+
+
+
+.img{
+    image-resolution: initial;
+}
+
+/* #region footer  */
+.footer-container{
+    background-image: url(/images/big-Background\ photo.jpg);
+    box-sizing: content-box;
+    display: block;
+    margin: 0;
+    padding: 18em 8em;
+    /* background-position: center; */
+    background-size:contain;
+    /* background-size:cover;  */
+    background-repeat: no-repeat;
+}
+/* #endregion footer  */

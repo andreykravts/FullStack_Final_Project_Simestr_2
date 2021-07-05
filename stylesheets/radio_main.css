@@ -1,31 +1,154 @@
+
+
+
+
+/***********************************
+ * Global styling and typography
+ ***********************************/
+
+
+
+
+
+body {
+    font-size: 2rem;
+    font-family: arial, helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #2c1f1f;
+
+    /* variables for common colors */
+    --h-color: #000000b0;
+    --a-color: #e73737;
+    --b-color: gold;
+}
+
+
+
+
+h1,h2 {
+    
+    color: var(--a-color);
+}
+
+
+
+/***********************************
+ * header
+ ***********************************/
+
+
+
+
+/***********************************
+ * main
+ ***********************************/
+
+
 .video iframe{
     border: 3px red solid;
     width: 35em;
     height: 20em;
 }
-a{
-    border: 3px solid violet;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    display: inline-block;
-}
-.play_video{
-    border: 3px solid pink;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    display: inline-block;
-    position:relative;
-    bottom: 18em;
-    left: 14em ;
-    box-sizing: border-box;
 
+
+/* #region please play a video */
+.btn_vid{
+    background-image: url(/icons/android-chrome-youtube192x192.png);
+    background-repeat: no-repeat;
+    padding: 5em;
+    position: relative;
+    left: 20rem;
+    box-sizing: border-box;
+    display: inline-block;
 }
+
+
+.play_video{
+    background-image: url(/images/Rammstein-radio.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    border: 3px solid pink;
+    padding: 5em;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    
+    
+}
+/* #endregion */
 img, section{
     box-sizing: border-box;
     display: block;
     margin: 0;
     padding: 0;
 
+}
+
+
+.main_container{
+    background-color: #ffffff;
+}
+
+
+
+
+
+.video iframe{
+    width: 100rem;
+    height: 30rem;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+
+
+/***********************************
+ * links
+ ***********************************/
+
+
+/* video */
+
+
+
+
+/***********************************
+ * footer
+ ***********************************/
+
+
+
+
+
+
+/* icons */
+
+/* footer .icon { */
+.icon {
+    color: var(--a-color);
+    font-size: 3rem;
+}
+
+footer:hover .icon {
+    filter: drop-shadow(5px 5px 7px #0c0000);
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+
+/********************************************************
+TYPOGRAPHY *********************************************
+******************************** ********************/
+
+p {
+    margin:0;
+    line-height: 1.5; /* important for readability */
+}
+span{
+    white-space: pre;
+    border: none;
 }

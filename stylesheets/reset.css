@@ -251,3 +251,49 @@ Tabindex
   overflow: hidden;
   white-space: nowrap;
 }
+
+
+
+/* #region navigatinon tab */
+
+.navigation
+{
+    width: 11em;
+    position: fixed;
+}
+
+/* all stages of a link */
+a {
+    color: var(--a-color);
+
+}
+
+/* don't forget focus */
+a:focus {
+    outline: 1px solid var(--a-color);
+    
+}
+a:hover {
+    color: var(--b-color);
+}
+
+.btn {
+    margin:1em 0 0 0;
+    background-color: var(--h-color);
+    display: inline-block; /* important for a link button and no width */
+    padding: 1rem 0.6rem 0;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px #fff, 0 0 0 10px var(--b-color);
+}
+
+.btn:hover {
+    color: var(--b-color);
+    /* filter: brightness(110%); */
+    opacity: 0.7;
+}
+/* #end region navigation tab */
