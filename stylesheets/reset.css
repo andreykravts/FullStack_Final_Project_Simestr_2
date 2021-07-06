@@ -297,3 +297,45 @@ a:hover {
     opacity: 0.7;
 }
 /* #end region navigation tab */
+
+
+/********************************************************
+TYPOGRAPHY *********************************************
+******************************** ********************/
+p {
+    margin:0;
+    line-height: 1.5; /* important for readability */
+}
+span{
+    
+    white-space: pre;
+    border: none;
+}
+
+
+/* #region please play a video */
+.btn_vid{
+
+    background-size:cover; 
+    background-repeat: no-repeat;
+    padding: 50em;
+    position: relative;
+    left: 20rem;
+    box-sizing: border-box;
+    display: inlie-block;
+}
+
+.play_video{
+
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 8em;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    
+    
+}
+/* #endregion */

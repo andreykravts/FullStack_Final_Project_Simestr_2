@@ -1,8 +1,10 @@
-
+body{
+    background-color: rgb(84, 149, 164);
+}
 .special_main{
     box-sizing: border-box;
     display: inline-block;
-
+    
 }
 
 
@@ -41,13 +43,13 @@
 
 }
 
-.aside_container1,.aside_container2,.aside_container3,.aside_container4,.aside_container5{
+.aside_container1,.aside_container2,.aside_container3,.aside_container4{
     padding: 6em 1%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/* ,.aside_container5 */
 .aside_container1{
     background-image: url(/images/images_beach.jpg);
 }
@@ -61,9 +63,9 @@
 .aside_container4{
     background-image: url(/images/priest.jpg);
 }
-.aside_container5{
+/* .aside_container5{
     background-image: url(/images/hunt.jpg);
-}
+} */
 .btn{
     background-image: url(/icons/android-chrome-youtube192x192.png);
     padding: 5em;

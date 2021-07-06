@@ -1,0 +1,12 @@
+/* #region please play a video */
+.btn-vid{
+    border: 5px solid rgb(255, 0, 255);
+    background-image: url(/icons/android-chrome-youtube192x192.png);
+
+}
+
+.play_video{
+    background-image: url(/images/mein_land.png);
+    border: 3px solid pink;
+}
+/* #endregion */

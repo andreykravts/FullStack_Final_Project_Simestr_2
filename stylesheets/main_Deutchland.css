@@ -49,6 +49,31 @@ nav{
  * main
  ***********************************/
 
+.btn_vid{
+    background-image: url(/icons/android-chrome-youtube192x192.png);
+    background-repeat: no-repeat;
+    padding: 5em;
+    position: relative;
+    left: 20rem;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.play_video{
+    background-image: url(/images/deutchland.png);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid pink;
+    padding: 5em;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    
+    
+}
+
 
 .main_container{
     background-color: #ffffff;
