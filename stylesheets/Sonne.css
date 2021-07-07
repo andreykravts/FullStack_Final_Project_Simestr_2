@@ -52,6 +52,29 @@ nav{
     color: rgba(245, 245, 220, 0.904);
     
 }
+
+.figure1, .figure2{
+    background-size: cover;
+    background-position: center;
+    padding: 10em ;
+    background-repeat: no-repeat;
+}
+.figure1{
+    background-image: url(/images/sonne-b.png);
+}
+.figure2{
+    background-image: url(/images/sonne6.png);
+}
+figcaption{
+    box-sizing: border-box;
+    display: contents;
+    color: antiquewhite;
+    
+    
+}
+.sonne-live>.play_video{
+    background-image: url(/images/sonne-live.png);
+}
 /* 
 *************************typography********************** */
 .pleft{
