@@ -52,11 +52,7 @@ h1,h2 {
 .btn_vid{
     background-image: url(/icons/android-chrome-youtube192x192.png);
     background-repeat: no-repeat;
-    padding: 5em;
-    position: relative;
-    left: 20rem;
-    box-sizing: border-box;
-    display: inline-block;
+
 }
 
 
@@ -65,21 +61,12 @@ h1,h2 {
     background-size:cover; 
     background-repeat: no-repeat;
     border: 3px solid pink;
-    padding: 5em;
-    margin: 0;
-    box-sizing: border-box;
-    display: block;
+
     
     
 }
 /* #endregion */
-img, section{
-    box-sizing: border-box;
-    display: block;
-    margin: 0;
-    padding: 0;
 
-}
 
 
 .main_container{

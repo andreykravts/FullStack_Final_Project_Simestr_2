@@ -10,7 +10,8 @@
 .btn_vid{
     border: 5px solid rgb(255, 0, 255);
     background-image: url(/icons/android-chrome-youtube192x192.png);
-
+    position: relative;
+    left:15rem;
 }
 
 

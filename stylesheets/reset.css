@@ -318,11 +318,13 @@ span{
 
     background-size:cover; 
     background-repeat: no-repeat;
-    padding: 50em;
+
+
+    padding: 5em;
     position: relative;
-    left: 20rem;
+    left: 19rem;
     box-sizing: border-box;
-    display: inlie-block;
+    display: inline-block;
 }
 
 .play_video{
@@ -331,7 +333,9 @@ span{
     background-repeat: no-repeat;
     background-position: center;
 
-    padding: 8em;
+
+
+    padding: 5em;
     margin: 0;
     box-sizing: border-box;
     display: block;

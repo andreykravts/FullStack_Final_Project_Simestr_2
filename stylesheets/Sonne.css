@@ -1,0 +1,63 @@
+.pleft{
+    float: left;
+}
+.pright{
+    float: right;
+}
+
+.play_video{
+    border: 3px pink solid;
+    background-image: url(/images/sonne.png);
+}
+.btn_vid{
+    background-image: url(/icons/android-chrome-youtube192x192.png);
+    position: relative;
+    left: 16rem;
+}
+body{
+    background-color: bisque;
+    font-size: 2rem;
+    font-family: arial, helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* variables for common colors */
+    --h-color: #3959e95d;
+    --a-color: #2dcaf1;
+    --b-color: rgba(47, 0, 255, 0.801);
+}
+.main_container{
+    background-color: aliceblue;
+}
+nav{
+    background-color: snow;
+    display: block;
+}
+
+.background1{
+    background-image: url(/images/sonne1.png);
+}
+.background2{
+    background-image: url(/images/sonne2.png);
+}
+.lyric1{
+    background-image: url(/images/sonne4.png);
+    border: 3px rgb(253, 10, 50) solid;
+}
+.background1,.background2{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(245, 245, 220, 0.904);
+    
+}
+/* 
+*************************typography********************** */
+.pleft{
+    font-size: 1.275rem;
+}
+.pright{
+    font-size: 1.275rem;
+}
+
