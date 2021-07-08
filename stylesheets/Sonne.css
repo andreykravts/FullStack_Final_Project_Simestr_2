@@ -36,41 +36,42 @@ nav{
 }
 
 .background1{
-    background-image: url(/images/sonne1.png);
+    background-image: url(/images/sonne3.png);
 }
 .background2{
     background-image: url(/images/sonne2.png);
 }
+.background3{
+    background-image: url(/images/sonne7.png);
+}
+.background4{
+    background-image: url(/images/sonne5.png);
+}
 .lyric1{
-    background-image: url(/images/sonne4.png);
+    background-image: url(/images/sonne2.png);
     border: 3px rgb(253, 10, 50) solid;
 }
-.background1,.background2{
-    
+.background1,.background2,figcaption,.background3,.background4{
+    padding: 4em;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgba(245, 245, 220, 0.904);
+    color: aliceblue;
+        text-shadow:
+        4px 0 4px #000000,
+        0 4px 4px #000000,
+        -4px     0 4px #000000,
+        0 -4px 4px #000000;
     
 }
 
-.figure1, .figure2{
-    background-size: cover;
-    background-position: center;
-    padding: 10em ;
-    background-repeat: no-repeat;
+.figure1i,img, .figure2+img,.figure1,.figure2,figcaption{
+    padding: 0;
+    margin: 0;
 }
-.figure1{
-    background-image: url(/images/sonne-b.png);
-}
-.figure2{
-    background-image: url(/images/sonne6.png);
-}
+
 figcaption{
     box-sizing: border-box;
-    display: contents;
-    color: antiquewhite;
-    
-    
+    display: inline-block;
 }
 .sonne-live>.play_video{
     background-image: url(/images/sonne-live.png);
