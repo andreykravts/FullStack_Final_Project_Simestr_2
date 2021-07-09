@@ -4,7 +4,7 @@
 
 body{
     color: aliceblue;
-    background-image: url(/images/rammstein-scene.jpg);
+    background-image: url(./images/rammstein-scene.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
