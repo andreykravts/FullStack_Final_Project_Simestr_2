@@ -9,6 +9,11 @@ body{
         0 4px 4px #000000,
         -4px     0 4px #000000,
         0 -4px 4px #000000;
+
+            /* variables for common colors */
+            --h-color: #00000057;
+            --a-color: #ffffff;
+            --b-color: rgb(140, 0, 255);
 }
 
 h1 ,h2{
