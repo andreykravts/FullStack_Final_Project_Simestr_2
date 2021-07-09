@@ -1,7 +1,4 @@
 
-
-
-
 /***********************************
  * Global styling and typography
  ***********************************/
@@ -60,7 +57,7 @@ h1,h2 {
     background-image: url(/images/Rammstein-radio.jpg);
     background-size:cover; 
     background-repeat: no-repeat;
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 
     
     
@@ -91,7 +88,7 @@ h1,h2 {
  ***********************************/
 
 
-/* video */
+
 
 
 
@@ -99,27 +96,6 @@ h1,h2 {
 /***********************************
  * footer
  ***********************************/
-
-
-
-
-
-
-/* icons */
-
-/* footer .icon { */
-.icon {
-    color: var(--a-color);
-    font-size: 3rem;
-}
-
-footer:hover .icon {
-    filter: drop-shadow(5px 5px 7px #0c0000);
-}
-
-.icon:hover {
-    opacity: 0.5;
-}
 
 
 /********************************************************

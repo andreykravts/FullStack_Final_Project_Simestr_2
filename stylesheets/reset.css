@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 3px black solid;
+    /* border: 3px black solid; */
     
 }
 
@@ -60,7 +60,7 @@ main {
     
 }
 .main_container{
-  border: 3px solid red;
+  /* border: 3px solid red; */
     width: 95%;
     max-width: 800px; 
     margin: 0em 25% 0em;

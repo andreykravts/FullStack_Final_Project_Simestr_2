@@ -1,3 +1,6 @@
+/***********************************
+ * Global styling and typography
+ ***********************************/
 body{
     color: white;
     background-color: rgba(0, 0, 0, 0.89);
@@ -8,7 +11,9 @@ body{
         0 -4px 4px #000000;
 }
 
-
+h1 ,h2{
+    margin: 0.6em;
+}
 /***********************************
  * main
  ***********************************/
@@ -21,7 +26,7 @@ body{
 
 /* #region please play a video */
 .btn_vid{
-    border: 5px solid rgb(255, 0, 255);
+    /* border: 5px solid rgb(255, 0, 255); */
     background-image: url(/icons/android-chrome-youtube192x192.png);
     position: relative;
     left:15rem;
@@ -30,7 +35,7 @@ body{
 
 .play_video{
     background-image: url(/images/mann_gegen_mann.png);
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 }
 /* #endregion */
 
@@ -38,3 +43,7 @@ body{
 TYPOGRAPHY *********************************************
 ******************************** ********************/
 
+p{
+    line-height: 2em;
+    font-size: large;
+}

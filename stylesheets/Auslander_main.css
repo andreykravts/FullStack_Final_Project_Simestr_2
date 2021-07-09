@@ -1,59 +1,74 @@
+/***********************************
+ * Global styling and typography
+ ***********************************/
 body{
-    background-color: rgb(84, 149, 164);
-}
-.special_main{
-    box-sizing: border-box;
-    display: inline-block;
+    background-color: rgba(255, 217, 0, 0.493);
+        /* variables for common colors */
+    --h-color: #000000b0;
+    --a-color: #ff7300;
+    --b-color: gold;
+
+
     
 }
 
+/***********************************
+ * header
+ ***********************************/
+/* navigation aside box */
+.navigation, h1, h2{
+    background-color: rgb(255, 186, 102);
+    text-shadow:
+        4px 0 4px #000000,
+        0 4px 4px #000000,
+        -4px  0 4px #000000,
+        0 -4px 4px #000000;
+}
 
+/***********************************
+ * main
+ ***********************************/
 .main_container{
     position: relative;
     left: 10em;
+    top: -18em;
     box-sizing: border-box;
     display: inline-block;
     margin: 0;
     width: 95%;
     max-width: 700px; 
-    border: 3px solid red;
-
-    background-color: rgba(0, 0, 0, 0.24);
+    /* border: 3px solid red; */
+    background-color: rgb(255, 255, 255);
     
 }
+/* aside images and gifs */
 
-.vid{
-    border: 3px solid violet;
+
+.vid-1,.vid-2,.vid-3,.vid-4,.vid-5,.vid-6,.vid-7,.vid-8,.vid-9{
+    /* border: 3px solid yellow; */
+    width: 15em;
+    height: 10em;
 
 }
-
-.vid-1{
-    border: 3px solid yellow;
-}
-
-
 .aside-container{
     position: relative;
     left: 10em;
     margin: 0;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     box-sizing: border-box;
     display: inline-block;
-    
-
 }
 
 .aside_container1,.aside_container2,.aside_container3,.aside_container4{
-    padding: 6em 1%;
+    padding: 5em 4em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* ,.aside_container5 */
+/* .aside_container */
 .aside_container1{
     background-image: url(/images/images_beach.jpg);
 }
-
 .aside_container2{
     background-image: url(/images/meet-with-chief.png);
 }
@@ -66,6 +81,9 @@ body{
 /* .aside_container5{
     background-image: url(/images/hunt.jpg);
 } */
+
+
+/* link button youtube clip */
 .btn_vid{
     background-image: url(/icons/android-chrome-youtube192x192.png);
     padding: 5em;
@@ -73,12 +91,12 @@ body{
     left: 15rem;
 }
 
-
+/* image video */
 .play_video{
     background-image: url(/images/Auslander.jpg);
     background-size:cover; 
     background-repeat: no-repeat;
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     padding: 5em;
     margin: 0;
     box-sizing: border-box;
@@ -86,27 +104,30 @@ body{
     
     
 }
-
-            /* <a class="play_video" href="https://www.youtube.com/watch?v=pat2c33sbog" alt="PLAY THE VIDEO">
-            <div class="btn"></div>
-            </a> */
-
-
-
 .img{
     image-resolution: initial;
 }
 
+/***********************************
+ * footer
+ ***********************************/
 /* #region footer  */
 .footer-container{
     background-image: url(/images/big-Background\ photo.jpg);
     box-sizing: content-box;
     display: block;
     margin: 0;
-    padding: 18em 8em;
-    /* background-position: center; */
-    background-size:contain;
-    /* background-size:cover;  */
+    padding: 12em 6em;
+    background-position: top;
+    background-size:cover; 
     background-repeat: no-repeat;
 }
 /* #endregion footer  */
+
+/********************************************************TYPOGRAPHY *********************************************
+******************************** ********************/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}

@@ -1,12 +1,41 @@
-.pleft{
-    float: left;
-}
-.pright{
-    float: right;
+
+
+/***********************************
+ * Global styling and typography
+ ***********************************/
+
+body{
+    background-image: url(/images/snow.jpg);
+    background-repeat: repeat ;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* variables for common colors */
+    --h-color: #3959e9a9;
+    --a-color: #2d41f1;
+    --b-color: rgba(47, 0, 255, 0.445);
 }
 
+ /***********************************
+ * header
+ ***********************************/
+.navigation{
+        text-shadow:
+        4px 0 4px #000000,
+        0 4px 4px #000000,
+        -4px     0 4px #000000,
+        0 -4px 4px #000000;
+        background-color: rgba(192, 179, 179, 0.616);
+        display: block;
+}
+
+/***********************************
+ * main
+ ***********************************/
 .play_video{
-    border: 3px pink solid;
+    /* border: 3px pink solid; */
     background-image: url(/images/sonne.png);
 }
 .btn_vid{
@@ -14,25 +43,9 @@
     position: relative;
     left: 16rem;
 }
-body{
-    background-color: bisque;
-    font-size: 2rem;
-    font-family: arial, helvetica, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 
-    /* variables for common colors */
-    --h-color: #3959e95d;
-    --a-color: #2dcaf1;
-    --b-color: rgba(47, 0, 255, 0.801);
-}
 .main_container{
-    background-color: aliceblue;
-}
-nav{
-    background-color: snow;
-    display: block;
+    background-color: rgba(240, 248, 255, 0.699);
 }
 
 .background1{
@@ -49,7 +62,7 @@ nav{
 }
 .lyric1{
     background-image: url(/images/sonne2.png);
-    border: 3px rgb(253, 10, 50) solid;
+    /* border: 3px rgb(253, 10, 50) solid; */
 }
 .background1,.background2,figcaption,.background3,.background4{
     padding: 4em;
@@ -59,7 +72,7 @@ nav{
         text-shadow:
         4px 0 4px #000000,
         0 4px 4px #000000,
-        -4px     0 4px #000000,
+        -4px  0 4px #000000,
         0 -4px 4px #000000;
     
 }
@@ -76,12 +89,24 @@ figcaption{
 .sonne-live>.play_video{
     background-image: url(/images/sonne-live.png);
 }
-/* 
-*************************typography********************** */
+
+.pleft{
+    float: left;
+}
+.pright{
+    float: right;
+}
+
+/********************************************************
+TYPOGRAPHY *********************************************
+******************************** ********************/
 .pleft{
     font-size: 1.275rem;
 }
 .pright{
     font-size: 1.275rem;
 }
-
+body{
+    font-size: 2rem;
+    font-family: arial, helvetica, sans-serif;
+}

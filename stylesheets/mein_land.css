@@ -1,12 +1,31 @@
+
+/***********************************
+ * Global styling and typography
+ ***********************************
+
+
+/***********************************
+ * header
+ ***********************************/
+
+.navigation{
+    background-color: aliceblue;
+}
+
+/***********************************
+ * main
+ ***********************************/
+
+
+
+
 /* #region please play a video */
 .main_container{
     background-color: antiquewhite;
 }
-nav{
-    background-color: aliceblue;
-}
+
 .btn_vid{
-    border: 5px solid rgb(255, 0, 255);
+    /* border: 5px solid rgb(255, 0, 255); */
     background-image: url(/icons/android-chrome-youtube192x192.png);
     position: relative;
     left: 15rem;
@@ -14,14 +33,13 @@ nav{
 
 .play_video{
     background-image: url(/images/mein_land.png);
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 
 }
 /* #endregion */
 
 body {
-    font-size: 2rem;
-    font-family: arial, helvetica, sans-serif;
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -31,4 +49,15 @@ body {
     --h-color: #ffffff62;
     --a-color: rgb(138, 138, 49);
     --b-color: rgb(0, 255, 128);
+}
+
+
+
+/********************************************************
+TYPOGRAPHY *********************************************
+******************************** ********************/
+body{
+
+    font-size: 2rem;
+    font-family: arial, helvetica, sans-serif;
 }
